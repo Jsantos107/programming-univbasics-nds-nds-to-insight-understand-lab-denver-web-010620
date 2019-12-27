@@ -10,5 +10,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  
+  row_index = 0
+while row_index < .length do
+  puts "Row #{row_index} has #{vm[row_index]} columns"
 end
