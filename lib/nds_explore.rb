@@ -11,9 +11,8 @@ end
 
 def print_first_directors_movie_titles
  
- director_data = directors_database[0][:movies]
-while row_index < director_data.length do
-  puts director_data[row_index][:title]
- row_index += 1
+ directors_database[0][:movies].each { |movie|
+    puts movie[:title]
+  }
  
  end
