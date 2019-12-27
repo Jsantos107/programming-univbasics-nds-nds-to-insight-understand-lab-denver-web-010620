@@ -11,7 +11,7 @@ end
 
 def print_first_directors_movie_titles
   row_index = 0
-  arr = directors_database[0][:movies]
-  while row_index < arr.length do
-    puts arr[row_index][:title]
+ director_data = directors_database[0][:movies]
+while row_index < director_data.length do
+  puts director_data[row_index][:title]
 end
